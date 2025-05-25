@@ -85,7 +85,7 @@ O projeto pode ser facilmente hospedado em:
 
 Utilize o `Procfile` já incluído para facilitar o deploy em plataformas PaaS.
 
-🔗 [Projeto online (exemplo de link)](https://diario-espacial-nasa.onrender.com)
+🔗 [Projeto online](https://diario-espacial-nasa.onrender.com)
 
 ---
 
