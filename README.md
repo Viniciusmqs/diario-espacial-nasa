@@ -1,77 +1,110 @@
-# 🔭 Diário Espacial NASA
+# 🚀 Diário Espacial NASA
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Framework-Flask-black?style=flat&logo=flask&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/Frontend-JavaScript-yellow?style=flat&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/Web-HTML5-orange?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/Web-CSS3-blue?style=flat&logo=css3&logoColor=white)
-![APIs](https://img.shields.io/badge/API-NASA%20APIs-red?style=flat&logo=nasa&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![NASA APIs](https://img.shields.io/badge/API-NASA%20APIs-red?style=flat&logo=nasa&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Um projeto web que deixa muito mais fácil e interativa a exploração do espaço em uma experiência visual. Utilize o **Diário Espacial NASA** para descobrir a Imagem Astronômica do Dia do seu nascimento ou alguma data marcante (APOD) e se divirta com as paisagens marcianas através das fotos do rover Curiosity (algumas datas não possuem fotos pois seu lançamento foi em 26 de novembro de 2011, se atente a isso)
+> Uma jornada visual e interativa pelo universo usando as APIs oficiais da NASA.
 
-Este projeto demonstra a utilização da APIs externas (NASA APIs), desenvolvimento de backend com Python Flask e criação de um frontend simples e responsivo com HTML, CSS e JavaScript puro
+---
 
-## ✨ Funcionalidades Principais
+## 🌟 Sobre o Projeto
 
-* **🌌 Imagem Astronômica do Dia (APOD):**
-    * Exibe a foto ou vídeo astronômico diário tirado pela NASA com título, explicação e créditos
-    * Navegação intuitiva para dias anteriores e futuros (até a data atual) ou seleção de data específica
-    * Imagem/vídeo APOD como fundo dinâmico da página para uma experiência mais completa
-    * Visualização em tela cheia via modal para observar os detalhes
+O **Diário Espacial NASA** é uma aplicação web que conecta usuários ao cosmos, trazendo imagens e vídeos fascinantes diretamente da NASA. Com uma interface moderna e intuitiva, você pode:
 
+- Visualizar a **Imagem Astronômica do Dia (APOD)** de qualquer data.
+- Explorar fotos reais capturadas pelo rover **Curiosity em Marte**.
+- Mergulhar em uma experiência visual imersiva com fundo dinâmico, modais e navegação fluida.
 
-* **📸 Galeria de Fotos de Marte:**
-    * Explore uma coleção de fotos tiradas pelo rover Curiosity em Marte
-    * Miniaturas clicáveis que se expandem para visualização detalhada
+> Ideal para curiosos, educadores, estudantes ou qualquer apaixonado pelo espaço!
 
+---
 
-* **🚀 Interface Intuitiva e Diferenciada:**
-    * Design minimalista com paleta de cores escura e tipografia limpa
-    * Transições e animações suaves
-    * Layout responsivo para garantir boa visualização em dispositivos móveis e desktops
+## ✨ Principais Funcionalidades
 
-## 🛠️ Tecnologias Utilizadas
+### 🌌 APOD (Astronomy Picture of the Day)
+- Consulta personalizada por data (inclusive a do seu nascimento!)
+- Exibição de imagem/vídeo, título, explicação e créditos oficiais
+- Fundo da página atualizado automaticamente com a mídia do dia
+- Modal fullscreen para uma experiência mais envolvente
 
-Este projeto foi construído utilizando as seguintes tecnologias e ferramentas:
+### 🪐 Galeria de Marte
+- Mostra fotos do rover Curiosity com base na data escolhida
+- Visualização em miniaturas e modal de destaque para imagem grande
+- Aviso amigável quando não há imagens para a data selecionada
 
-### Backend (Python)
+### 🎨 Interface Moderna
+- Tema escuro elegante e acessível
+- Layout responsivo (mobile e desktop)
+- Transições suaves e design centrado na experiência do usuário
+
+---
+
+## 🔧 Tecnologias Utilizadas
+
+### Backend
 
 [![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![Requests](https://img.shields.io/badge/Requests-282C34?style=for-the-badge&logo=requests&logoColor=white)](https://docs.python-requests.org/)
-[![python-dotenv](https://img.shields.io/badge/python--dotenv-DDDDDD?style=for-the-badge&logo=dot-env&logoColor=black)](https://pypi.org/project/python-dotenv/)
+[![dotenv](https://img.shields.io/badge/dotenv-%23323330.svg?style=for-the-badge&logo=env&logoColor=white)](https://pypi.org/project/python-dotenv/)
 
-* **[Python](https://www.python.org/):** Linguagem de programação principal
-* **[Flask](https://flask.palletsprojects.com/):** Microframework web leve e flexível
-* **[Requests](https://docs.python-requests.org/):** Biblioteca HTTP
-* **[python-dotenv](https://pypi.org/project/python-dotenv/):** Essencial para gerenciar variáveis de ambiente e manter a chave da API segura
+- Flask: Framework web leve e poderoso
+- Requests: Cliente HTTP para consumir APIs REST
+- Python-dotenv: Carregamento seguro de variáveis de ambiente
 
+### Frontend
 
-### Frontend (Web)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
-* **[HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5):** Estrutura semântica da página
-* **[CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS):** Para estilização moderna 
-* **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript):** Lógica interativa do lado de quem visualiza, incluindo o consumo da API do backend Flask e a manipulação dinâmica do DOM
+- HTML/CSS/JS puro para leveza e performance
+- JavaScript vanilla para requisições assíncronas e modais
 
 ### APIs Externas
 
-[![NASA](https://img.shields.io/badge/NASA%20APIs-0B3D91?style=for-the-badge&logo=nasa&logoColor=white)](https://api.nasa.gov/)
+[![NASA API](https://img.shields.io/badge/NASA%20API-0B3D91?style=for-the-badge&logo=nasa&logoColor=white)](https://api.nasa.gov/)
 
-* **[NASA APOD API](https://api.nasa.gov/api.html#apod):** Utilizada para buscar a Imagem Astronômica do Dia, incluindo fotos e vídeos
-* **[NASA Mars Rover Photos API](https://api.nasa.gov/api.html#mars-photos):** Permite acesso a coleção de imagens capturadas pelo rover Curiosity
+- **APOD (Astronomy Picture of the Day)**: imagens e vídeos astronômicos com explicação
+- **Mars Rover Photos**: fotos tiradas em Marte pelo rover Curiosity
 
-### Veja o Projeto Online!✨
+---
 
-Você pode acessar uma versão deployada do Diário Espacial NASA a qualquer momento neste link:
+## 🚀 Deploy
 
-🔗 [Visite o Diário Espacial NASA no Render.com](https://diario-espacial-nasa.onrender.com)
+O projeto pode ser facilmente hospedado em:
 
-## 👨‍💻 Desenvolvido por
+- **Render**
+- **Heroku**
+- **Railway**
 
-**Vinicius Marques**  
-🔗 [github.com/Viniciusmqs](https://github.com/Viniciusmqs) 
+Utilize o `Procfile` já incluído para facilitar o deploy em plataformas PaaS.
+
+🔗 [Projeto online (exemplo de link)](https://diario-espacial-nasa.onrender.com)
+
+---
+
+## ⚙️ Como Rodar Localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/Viniciusmqs/diario-espacial-nasa.git
+cd diario-espacial-nasa
+
+# Crie um ambiente virtual
+python -m venv venv
+.\venv\Scripts\Activate  # Windows
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Crie o arquivo .env com sua chave da NASA
+echo NASA_API_KEY=SUA_CHAVE_AQUI > .env
+
+# Inicie o servidor Flask
+python app.py
