@@ -71,7 +71,7 @@ Você pode acessar uma versão deployada do Diário Espacial NASA a qualquer mom
 
 🔗 [Visite o Diário Espacial NASA no Render.com](https://diario-espacial-nasa.onrender.com)
 
-
 ## 👨‍💻 Desenvolvido por
 
-**Matheus Camargos**  
+**Vinicius Marques**  
+🔗 [github.com/Viniciusmqs](https://github.com/Viniciusmqs) 
